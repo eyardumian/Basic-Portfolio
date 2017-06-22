@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0px;
+  border-style: none;
+  border-width: 0px;
+}
+
+#nameHeadline {
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  margin-left: 60px;
+  float: left;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.headingColorTop {
+  color: #ffffff;
+  background-color: #4aaaa5;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.social {
+  text-decoration: none;
+}
+
+img.linkLogo {
+  width: 57px;
+  height: 57px;
+}
+
+.pageSection {
+  display: flex;
+  justify-content: center;
+}
+
+#top {
+  border-bottom-style: solid;
+  border-width: 3px;
+  background: #FFFFFF;
+  border-color: #cccccc;
+  color: #4aaaa5;
+  height: 70px;
+  width: 1020px;
+}
+
+#aboutMe {
+  width: 650px;
+  height: auto;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  padding: 30px;
+  float: right;
+
+}
+
+#connectWithMe {
+  width: 270px;
+  height: 100px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  text-align: center;
+  color: #4aaaa5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 30px;
+
+}
+
+#headingMiddle {
+    color: #4AAAA5;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#headingConnectWithMe {
+  margin-bottom: 30px;
+}
+
+#middle {
+  background-image: url("../images/textureBackground.jpeg");
+  padding: 60px;
+width: 900px;
+}
+
+#bottom {
+  border-top: 8px;
+  border-color: #4aaaa5;
+  border-style: solid;
+  background-color: #666666;
+  padding-bottom: 40px;
+  width: 1020px;
+}
+
+.localLinks {
+  border-width: 10px;
+  border-style: solid;
+  width: 200px;
+
+}
+
+#footer {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.debug {
+  border-style: dashed;
+  border-width: 5px;
+  background: blue;
+  border-color: green;
+  color: #990099;
+}
