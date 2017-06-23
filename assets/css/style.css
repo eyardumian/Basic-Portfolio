@@ -5,29 +5,12 @@
   border-width: 0px;
 }
 
-#nameHeadline {
-  padding: 20px;
-  width: 250px;
-  text-align: center;
-  margin-left: 60px;
-  float: left;
-}
-
 strong {
   font-weight: 600;
 }
 
-.headingColorTop {
-  color: #ffffff;
-  background-color: #4aaaa5;
-}
-
 h1 {
   font-size: 30px;
-}
-
-.social {
-  text-decoration: none;
 }
 
 img.linkLogo {
@@ -35,9 +18,26 @@ img.linkLogo {
   height: 57px;
 }
 
+#localLinks {
+  width: 660px;
+  float: left;
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 10px;
+}
+
+.social {
+  text-decoration: none;
+}
+
 .pageSection {
   display: flex;
   justify-content: center;
+}
+
+.headingColorTop {
+  color: #ffffff;
+  background-color: #4aaaa5;
 }
 
 #top {
@@ -50,6 +50,27 @@ img.linkLogo {
   width: 1020px;
 }
 
+#middle {
+  background-image: url("../images/textureBackground.jpg");
+  padding: 60px;
+  width: 900px;
+}
+
+#bottom {
+  border-top: 8px;
+  border-color: #4aaaa5;
+  border-style: solid;
+  background-color: #666666;
+  padding-bottom: 40px;
+  width: 1020px;
+}
+
+#footer {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
 #aboutMe {
   width: 650px;
   height: auto;
@@ -59,7 +80,28 @@ img.linkLogo {
   border-color: #cccccc;
   padding: 30px;
   float: right;
+}
 
+#contact {
+  width: 650px;
+  height: auto;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  padding: 30px;
+  float: right;
+}
+
+#portfolio {
+  width: 650px;
+  height: auto;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  padding: 30px;
+  float: right;
 }
 
 #connectWithMe {
@@ -87,38 +129,15 @@ img.linkLogo {
   margin-bottom: 30px;
 }
 
-#middle {
-  background-image: url("../images/textureBackground.jpeg");
-  padding: 60px;
-width: 900px;
-}
-
-#bottom {
-  border-top: 8px;
-  border-color: #4aaaa5;
-  border-style: solid;
-  background-color: #666666;
-  padding-bottom: 40px;
-  width: 1020px;
-}
-
-.localLinks {
-  border-width: 10px;
-  border-style: solid;
-  width: 200px;
-
-}
-
-#footer {
+#nameHeadline {
+  padding: 20px;
+  width: 250px;
   text-align: center;
-  color: #ffffff;
-  margin-top: 30px;
+  margin-left: 60px;
+  float: left;
 }
 
-.debug {
-  border-style: dashed;
-  border-width: 5px;
-  background: blue;
-  border-color: green;
-  color: #990099;
+img#profilePic {
+    float: left;
+    margin-right: 24px;
 }
